@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://uclbranding.uefa.com/assets/img/top-image.jpg);
+    background-size: cover;
+   
+    letter-spacing: 1.5px;
+}
+
+.container{
+    background: linear-gradient(#fcdd49, #f7d636, #f7d100, #e4b600);
+    border: solid white 3px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 10px black;
+    margin: 80px 10% 75px 10%;
+}
+
+.container p{
+    color: white; 
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+
+
+.content p:first-child{
+    font-size: 1.5em;
+    float: left;
+}
+
+
+
+textarea{
+    font-family: 'Bangers', cursive;
+    width: 70%;
+    height: 50px;
+    resize: none;
+    border-radius: 10px;
+}
+
+
+
+.send{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.send p{
+    font-size: 1.3em;
+    border: 3px solid white;
+    background: linear-gradient(#483cf1,#483cf1,#483cf1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+
+
+.send a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width:640px) {
+    .content{
+        flex-direction: column;
+    }
+
+    .option{
+        flex-direction: column;
+    }
+
+    .option div{
+        margin-bottom: 10px;
+    }
+
+    .send{
+        flex-direction: column;
+    }
+}

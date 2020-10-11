@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://uclbranding.uefa.com/assets/img/top-image.jpg);
+    background-size: cover;
+    font-family: 'Kaushian';
+    letter-spacing: 1.5px;
+}
+
+.container {
+    background: linear-gradient(#424242,#424242,#424242,#424242);
+    border: solid white 3px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 10px black;
+    margin: 80px 10% 75px 10%;
+}
+
+.container p {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.questionTitle {
+    text-decoration: underline;
+    color: black;
+}
+
+.reponses {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reponses p {
+    border: 3px solid white;
+    background: linear-gradient(#483cf1, #483cf1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.reponses p:hover {
+    transform: scale(1.2);
+}
+
+.container .selectEnd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .selectEnd p {
+    border: 3px solid white;
+    background: linear-gradient(#483cf1,#483cf1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.container .selectEnd p:hover {
+    transform: scale(1.2);
+}
+
+.answer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.answerContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #888;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.answerTitle {
+    font-size: 2em;
+}
+
+.envoyer {
+    border: 3px solid white;
+    background: linear-gradient(#483cf1,#483cf1);
+    color: white;
+    
+}
+
+
+
+
+
